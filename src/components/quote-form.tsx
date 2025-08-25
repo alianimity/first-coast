@@ -47,14 +47,14 @@ export function QuoteForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="w-full max-w-[720px] mx-auto bg-white/5 border border-white/10 rounded-lg p-5 sm:p-6"
+      className="w-full max-w-[720px] mx-auto bg-white/5 border border-white/10 rounded-lg p-4 sm:p-6 lg:p-8"
     >
       {step === 1 && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="sm:col-span-2">
             <label className="block text-sm mb-1">Full name</label>
             <input
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               placeholder="Jane Doe"
               {...register("name")}
             />
@@ -64,7 +64,7 @@ export function QuoteForm() {
             <label className="block text-sm mb-1">Email</label>
             <input
               type="email"
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               placeholder="you@example.com"
               {...register("email")}
             />
@@ -73,7 +73,7 @@ export function QuoteForm() {
           <div>
             <label className="block text-sm mb-1">Phone</label>
             <input
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               placeholder="(848) 236‑9896"
               {...register("phone")}
             />
@@ -92,7 +92,7 @@ export function QuoteForm() {
           <div>
             <label className="block text-sm mb-1">City</label>
             <input
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               placeholder="St. Augustine"
               {...register("city")}
             />
@@ -101,7 +101,7 @@ export function QuoteForm() {
           <div>
             <label className="block text-sm mb-1">Service</label>
             <select
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               defaultValue=""
               {...register("service")}
             >
@@ -120,7 +120,7 @@ export function QuoteForm() {
             <label className="block text-sm mb-1">Project details</label>
             <textarea
               rows={4}
-              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
+              className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-3 text-base outline-none focus:ring-2 focus:ring-[var(--brand-primary)] focus:border-[var(--brand-primary)] transition-colors"
               placeholder="Briefly describe your project and timeline goals..."
               {...register("details")}
             />

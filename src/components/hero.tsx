@@ -30,26 +30,26 @@ export function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light tracking-tight leading-[0.9] mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light tracking-tight leading-[0.9] mb-6">
             <span className="block">Coastal Remodeling</span>
             <span className="block text-[var(--brand-primary)] font-medium">Reimagined</span>
           </h1>
           
           {/* Business Tagline */}
-          <div className="text-xl sm:text-2xl lg:text-3xl text-[var(--brand-primary)] font-light italic mb-8 tracking-wide">
+          <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-[var(--brand-primary)] font-light italic mb-6 md:mb-8 tracking-wide px-4 sm:px-0">
             Remodel, Repair, Renew – Coastal Expertise, Hands-On Results
           </div>
           
-          <p className="text-lg sm:text-xl lg:text-2xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-12 font-light">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-8 md:mb-12 font-light px-4 sm:px-0">
             Expert remodeling and renovation services available nationwide. From planning to execution,
             we bring professional-grade transformations to your home, wherever you are.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button className="px-8 py-4 text-lg font-medium shadow-lg" asChild>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 md:mb-16 px-4 sm:px-0">
+            <Button className="w-full sm:w-auto px-8 py-4 text-base sm:text-lg font-medium shadow-lg min-h-[48px]" asChild>
               <a href="/contact">Get Started</a>
             </Button>
-            <Button variant="outline" className="px-8 py-4 text-lg border-white/30 text-white hover:bg-white/10" asChild>
+            <Button variant="outline" className="w-full sm:w-auto px-8 py-4 text-base sm:text-lg border-white/30 text-white hover:bg-white/10 min-h-[48px]" asChild>
               <a href="/services">Our Services</a>
             </Button>
           </div>

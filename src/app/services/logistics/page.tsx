@@ -2,11 +2,23 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Truck, CheckCircle, Calendar, Users, Target, Clock, Star, Shield, DollarSign } from "lucide-react";
+import { Breadcrumbs } from "../../../components/breadcrumbs";
+import { RelatedServices } from "../../../components/related-services";
 
 export default function Page() {
+  const breadcrumbItems = [
+    { label: "Services", href: "/services" },
+    { label: "Logistics Management" }
+  ];
+
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+      {/* Breadcrumbs */}
+      <div className="bg-neutral-900 pt-20">
+        <Breadcrumbs items={breadcrumbItems} />
+      </div>
+
+      {/* Hero Section */>
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-neutral-900 via-neutral-800 to-black">
         <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-support)]/20 to-[var(--brand-primary)]/10" />
         
@@ -285,6 +297,9 @@ export default function Page() {
           </motion.a>
         </div>
       </section>
+
+      {/* Related Services */}
+      <RelatedServices currentService="logistics" />
     </main>
   );
 }
