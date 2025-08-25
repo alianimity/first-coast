@@ -74,7 +74,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Overview Section */}
       <section className="py-20 bg-[var(--brand-support)]">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
