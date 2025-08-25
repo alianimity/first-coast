@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Palette, Shield, Clock, Star, CheckCircle, DollarSign } from "lucide-react";
+import { ArrowRight, Palette, Shield, Clock, Star, CheckCircle } from "lucide-react";
 import { Breadcrumbs } from "../../../components/breadcrumbs";
 import { RelatedServices } from "../../../components/related-services";
 
@@ -49,7 +49,7 @@ export default function Page() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-8"
           >
-            Expert hands-on execution with coastal-grade materials designed for Florida's unique environment. 
+            Expert hands-on execution with coastal-grade materials designed for Florida&apos;s unique environment. 
             From fresh paint to stunning backsplashes, we transform spaces with precision and care.
           </motion.p>
 
@@ -88,7 +88,7 @@ export default function Page() {
                 Our Coastal Expertise
               </h2>
               <p className="text-lg text-neutral-300 leading-relaxed mb-8">
-                We specialize in materials and techniques that thrive in Florida's humid, salt-air environment. 
+                We specialize in materials and techniques that thrive in Florida&apos;s humid, salt-air environment. 
                 Every choice we make is informed by coastal conditions, ensuring your investment stands the test of time.
               </p>
               
@@ -133,7 +133,7 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-              What's Included
+              What&apos;s Included
             </h2>
             <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
               Comprehensive cosmetic remodeling services designed for coastal durability and aesthetic excellence
@@ -176,7 +176,7 @@ export default function Page() {
               >
                 <h3 className="text-lg font-medium text-white mb-4">{service.title}</h3>
                 <ul className="space-y-2">
-                  {service.items.map((item, itemIndex) => (
+                  {service.items.map((item) => (
                     <li key={item} className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-[var(--brand-primary)] rounded-full" />
                       <span className="text-sm text-neutral-300">{item}</span>
@@ -337,7 +337,7 @@ export default function Page() {
             Ready to Transform Your Space?
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Get a detailed quote for your cosmetic remodeling project. We'll assess your space, 
+            Get a detailed quote for your cosmetic remodeling project. We&apos;ll assess your space, 
             recommend coastal-appropriate materials, and provide transparent pricing.
           </p>
           <motion.a

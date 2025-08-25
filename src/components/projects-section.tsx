@@ -95,7 +95,7 @@ export function ProjectsSection() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-lg sm:text-xl text-neutral-300 max-w-2xl mx-auto"
             >
-              Discover how we've transformed homes across the First Coast with our signature coastal expertise
+              Discover how we&apos;ve transformed homes across the First Coast with our signature coastal expertise
             </motion.p>
           </div>
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, ExternalLink } from "lucide-react";
 
 export function SiteFooter() {

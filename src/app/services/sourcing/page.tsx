@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Package, Shield, Clock, Star, CheckCircle, DollarSign, Truck, Globe, Award } from "lucide-react";
+import { ArrowRight, Package, Shield, Star, CheckCircle, Truck, Globe, Award } from "lucide-react";
 import { Breadcrumbs } from "../../../components/breadcrumbs";
 import { RelatedServices } from "../../../components/related-services";
 
@@ -187,7 +187,7 @@ export default function Page() {
                   <h3 className="text-lg font-medium text-white">{service.title}</h3>
                 </div>
                 <ul className="space-y-2">
-                  {service.items.map((item, itemIndex) => (
+                  {service.items.map((item) => (
                     <li key={item} className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-[var(--brand-primary)] rounded-full" />
                       <span className="text-sm text-neutral-300">{item}</span>

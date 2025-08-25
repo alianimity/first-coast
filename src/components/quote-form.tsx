@@ -39,7 +39,7 @@ export function QuoteForm() {
       });
       if (!res.ok) throw new Error("Failed to submit");
       toast.success("Quote request sent. We'll get back shortly. For urgent inquiries, contact support@firstcoastremod.com");
-    } catch (e) {
+    } catch {
       toast.error("There was an issue sending your request.");
     }
   };

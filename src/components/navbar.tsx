@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,7 +47,7 @@ export function Navbar() {
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a 
+          <Link 
             href="/" 
             className="flex items-center space-x-2 text-white font-semibold text-lg lg:text-xl tracking-tight hover:text-[var(--brand-primary)] transition-colors"
           >
@@ -54,7 +55,7 @@ export function Navbar() {
               <span className="text-black font-bold text-sm">FC</span>
             </div>
             <span className="hidden sm:block">First Coast</span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

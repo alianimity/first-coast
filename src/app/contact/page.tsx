@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Phone, Mail, MapPin, Clock, Shield, Award, CheckCircle, Star, Users, Wrench } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Shield, Award, CheckCircle, Star, Users, Wrench } from "lucide-react";
 import { QuoteForm } from "../../components/quote-form";
 
 export default function ContactPage() {
@@ -18,7 +18,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight"
           >
-            Let's Start Your <span className="text-[var(--brand-primary)] font-medium">Project</span>
+            Let&apos;s Start Your <span className="text-[var(--brand-primary)] font-medium">Project</span>
           </motion.h1>
           
           <motion.p 
@@ -119,7 +119,7 @@ export default function ContactPage() {
                   Get Your Project Quote
                 </h2>
                 <p className="text-neutral-300 mb-8">
-                  Tell us about your vision and we'll create a detailed plan with transparent pricing.
+                  Tell us about your vision and we&apos;ll create a detailed plan with transparent pricing.
                 </p>
                 <QuoteForm />
               </div>
@@ -265,7 +265,7 @@ export default function ContactPage() {
             Questions Before You Start?
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Not ready for a quote yet? We're happy to discuss your ideas and answer any questions 
+            Not ready for a quote yet? We&apos;re happy to discuss your ideas and answer any questions 
             about remodeling, materials, or our process.
           </p>
           <motion.a

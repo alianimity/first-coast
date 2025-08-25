@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, RefreshCw, Shield, Clock, Star, CheckCircle, DollarSign, Recycle, TreePine, TrendingUp } from "lucide-react";
+import { ArrowRight, RefreshCw, CheckCircle, Recycle } from "lucide-react";
 import { Breadcrumbs } from "../../../components/breadcrumbs";
 import { RelatedServices } from "../../../components/related-services";
 

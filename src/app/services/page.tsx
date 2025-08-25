@@ -8,7 +8,7 @@ const services = [
     id: "cosmetic-remodeling",
     title: "Cosmetic Remodeling & Repair",
     subtitle: "Transform Spaces with Expert Craftsmanship",
-    description: "From fresh paint to stunning backsplashes, we handle all cosmetic improvements with coastal-grade materials designed for Florida's unique environment.",
+    description: "From fresh paint to stunning backsplashes, we handle all cosmetic improvements with coastal-grade materials designed for Florida&apos;s unique environment.",
     href: "/services/cosmetic-remodeling",
     icon: Palette,
     priceRange: "$1,000 - $50,000+",
@@ -89,7 +89,7 @@ export default function ServicesIndex() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl sm:text-2xl text-neutral-200 max-w-4xl mx-auto leading-relaxed mb-12"
           >
-            From initial planning to final execution, we provide comprehensive remodeling services designed specifically for Florida's First Coast environment.
+            From initial planning to final execution, we provide comprehensive remodeling services designed specifically for Florida&apos;s First Coast environment.
           </motion.p>
 
           <motion.div
@@ -141,7 +141,7 @@ export default function ServicesIndex() {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-black/80 mb-8 max-w-2xl mx-auto">
-            Let's discuss your vision and create a customized plan that brings your coastal remodeling dreams to life.
+            Let&apos;s discuss your vision and create a customized plan that brings your coastal remodeling dreams to life.
           </p>
           <motion.a
             href="/contact"
@@ -216,7 +216,7 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
-          {service.features.map((feature, featureIndex) => (
+          {service.features.map((feature) => (
             <div key={feature} className="flex items-center gap-3">
               <div className="w-2 h-2 bg-[var(--brand-primary)] rounded-full" />
               <span className="text-sm text-neutral-300">{feature}</span>
