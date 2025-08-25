@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, ExternalLink } from "lucide-react";
 
-export function SiteFooter(): JSX.Element {
+export function SiteFooter() {
   return (
     <footer className="bg-black border-t border-[var(--brand-primary)]/20">
       <div className="max-w-[1400px] mx-auto px-6 py-16">
@@ -18,25 +18,25 @@ export function SiteFooter(): JSX.Element {
             </div>
             
             <p className="text-neutral-300 mb-8 max-w-md leading-relaxed">
-              Expert coastal remodeling services across Florida's First Coast. From planning to execution, 
-              we deliver professional-grade transformations with coastal expertise.
+              Expert remodeling services available nationwide. From planning to execution, 
+              we deliver professional-grade transformations across all 50 states.
             </p>
 
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-[var(--brand-primary)]" />
-                <span className="text-neutral-300">St. Johns County, FL</span>
+                <span className="text-neutral-300">Nationwide Service</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[var(--brand-primary)]" />
-                <a href="tel:(904)555-0123" className="text-neutral-300 hover:text-[var(--brand-primary)] transition-colors">
-                  (904) 555‑0123
+                <a href="tel:(848)236-9896" className="text-neutral-300 hover:text-[var(--brand-primary)] transition-colors">
+                  (848) 236‑9896
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[var(--brand-primary)]" />
-                <a href="mailto:hello@firstcoasthrr.com" className="text-neutral-300 hover:text-[var(--brand-primary)] transition-colors">
-                  hello@firstcoasthrr.com
+                <a href="mailto:hello@firstcoastremod.com" className="text-neutral-300 hover:text-[var(--brand-primary)] transition-colors">
+                  hello@firstcoastremod.com
                 </a>
               </div>
             </div>
@@ -47,10 +47,12 @@ export function SiteFooter(): JSX.Element {
             <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
             <ul className="space-y-3">
               {[
+                { name: "All Services", href: "/services" },
                 { name: "Cosmetic Remodeling", href: "/services/cosmetic-remodeling" },
                 { name: "Project Planning", href: "/services/planning" },
                 { name: "Material Sourcing", href: "/services/sourcing" },
-                { name: "All Services", href: "/services" },
+                { name: "Trade & Barter", href: "/services/trade" },
+                { name: "Logistics Management", href: "/services/logistics" },
               ].map((item) => (
                 <li key={item.name}>
                   <a 

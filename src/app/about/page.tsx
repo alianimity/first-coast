@@ -26,8 +26,8 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-neutral-200 max-w-3xl mx-auto leading-relaxed"
           >
-            We enhance homes across Florida's vibrant First Coast communities through a proven hybrid approach: 
-            expert project planning, reliable material sourcing, and hands-on cosmetic execution.
+            We enhance homes nationwide through a proven hybrid approach: expert project planning, 
+            reliable material sourcing, and hands-on cosmetic execution serving all 50 states.
           </motion.p>
         </div>
       </section>
@@ -45,17 +45,17 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-neutral-300 leading-relaxed mb-8">
-                To enhance First Coast homes through expert planning, strategic material sourcing, 
+                To enhance homes nationwide through expert planning, strategic material sourcing, 
                 and quality cosmetic execution—while making the remodeling process transparent, 
-                efficient, and tailored to coastal living demands.
+                efficient, and tailored to your specific regional needs.
               </p>
               
               <div className="space-y-6">
                 {[
                   {
                     icon: Shield,
-                    title: "Coastal Expertise",
-                    description: "Specialized knowledge of humidity, salt-air, and hurricane-resistant materials and techniques."
+                    title: "Regional Expertise",
+                    description: "Specialized knowledge of climate-appropriate materials and techniques for every region across America."
                   },
                   {
                     icon: Award,
@@ -109,7 +109,7 @@ export default function AboutPage() {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Experience the difference of working with coastal remodeling specialists who understand your unique needs.
+            Experience the difference of working with remodeling specialists who understand your unique regional needs.
           </p>
           <motion.a
             href="/contact"

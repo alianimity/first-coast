@@ -73,7 +73,7 @@ const projects: Project[] = [
   }
 ];
 
-export function ProjectsSection(): JSX.Element {
+export function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (

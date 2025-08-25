@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 
-export function Hero(): JSX.Element {
+export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Video Background */}
@@ -36,8 +36,8 @@ export function Hero(): JSX.Element {
           </h1>
           
           <p className="text-lg sm:text-xl lg:text-2xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-12 font-light">
-            Expert cosmetic renovations across Florida's First Coast. From St. Augustine's historic charm 
-            to Ponte Vedra's coastal elegance — we bring professional-grade transformations to your home.
+            Expert remodeling and renovation services available nationwide. From planning to execution,
+            we bring professional-grade transformations to your home, wherever you are.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -64,8 +64,8 @@ export function Hero(): JSX.Element {
               <div className="text-sm text-neutral-300 uppercase tracking-wide">Average Rating</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">50+</div>
-              <div className="text-sm text-neutral-300 uppercase tracking-wide">Cities Served</div>
+              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">50</div>
+              <div className="text-sm text-neutral-300 uppercase tracking-wide">States Served</div>
             </div>
           </motion.div>
         </motion.div>

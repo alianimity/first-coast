@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,9 +19,17 @@ export function Navbar() {
   }, []);
 
   const navItems = [
-    { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
+  ];
+
+  const serviceItems = [
+    { name: "All Services", href: "/services" },
+    { name: "Cosmetic Remodeling", href: "/services/cosmetic-remodeling" },
+    { name: "Project Planning", href: "/services/planning" },
+    { name: "Material Sourcing", href: "/services/sourcing" },
+    { name: "Trade & Barter", href: "/services/trade" },
+    { name: "Logistics Management", href: "/services/logistics" },
   ];
 
   return (
@@ -49,6 +58,40 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+            {/* Services Dropdown */}
+            <div 
+              className="relative group"
+              onMouseEnter={() => setIsServicesOpen(true)}
+              onMouseLeave={() => setIsServicesOpen(false)}
+            >
+              <button className="flex items-center gap-1 text-white hover:text-[var(--brand-primary)] transition-colors font-medium text-sm lg:text-base group">
+                Services
+                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`} />
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[var(--brand-primary)] group-hover:w-full transition-all duration-300" />
+              </button>
+              
+              {/* Dropdown Menu */}
+              <div className={`absolute top-full left-0 mt-2 w-56 bg-[var(--brand-support)]/95 backdrop-blur-lg border border-[var(--brand-primary)]/20 rounded-lg shadow-lg transition-all duration-200 ${
+                isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
+              }`}>
+                <div className="py-2">
+                  {serviceItems.map((item, index) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={`block px-4 py-2 text-sm transition-colors ${
+                        index === 0 
+                          ? 'text-[var(--brand-primary)] font-medium border-b border-[var(--brand-primary)]/20' 
+                          : 'text-neutral-300 hover:text-[var(--brand-primary)] hover:bg-[var(--brand-primary)]/10'
+                      }`}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -86,7 +129,23 @@ export function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden border-t border-[var(--brand-primary)]/20 bg-[var(--brand-support)]/95 backdrop-blur-lg"
           >
-            <div className="py-4 space-y-4">
+            <div className="py-4 space-y-2">
+              {/* Services Section */}
+              <div className="px-4">
+                <h3 className="text-[var(--brand-primary)] font-medium text-sm uppercase tracking-wide mb-2">Services</h3>
+                {serviceItems.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block px-2 py-2 text-neutral-300 hover:text-[var(--brand-primary)] hover:bg-[var(--brand-primary)]/10 transition-colors text-sm"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </div>
+              
+              {/* Other Nav Items */}
               {navItems.map((item) => (
                 <a
                   key={item.name}
@@ -97,7 +156,8 @@ export function Navbar() {
                   {item.name}
                 </a>
               ))}
-              <div className="px-4">
+              
+              <div className="px-4 pt-2">
                 <a
                   href="/contact"
                   className="block w-full text-center px-4 py-3 bg-[var(--brand-primary)] text-black font-medium rounded-lg hover:bg-[var(--brand-primary)]/90 transition-all"

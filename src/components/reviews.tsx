@@ -36,7 +36,7 @@ const reviews: Review[] = [
   },
 ];
 
-export function Reviews(): JSX.Element {
+export function Reviews() {
   return (
     <section className="w-full max-w-[1280px] mx-auto py-8 sm:py-12 px-4">
       <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-6">Reviews</h2>

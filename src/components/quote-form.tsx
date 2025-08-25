@@ -22,7 +22,7 @@ const StepTwoSchema = z.object({
 const FormSchema = StepOneSchema.and(StepTwoSchema);
 type FormValues = z.infer<typeof FormSchema>;
 
-export function QuoteForm(): JSX.Element {
+export function QuoteForm() {
   const [step, setStep] = React.useState<1 | 2>(1);
   const {
     register,
@@ -38,7 +38,7 @@ export function QuoteForm(): JSX.Element {
         body: JSON.stringify(values),
       });
       if (!res.ok) throw new Error("Failed to submit");
-      toast.success("Quote request sent. We'll get back shortly.");
+      toast.success("Quote request sent. We'll get back shortly. For urgent inquiries, contact support@firstcoastremod.com");
     } catch (e) {
       toast.error("There was an issue sending your request.");
     }
@@ -74,7 +74,7 @@ export function QuoteForm(): JSX.Element {
             <label className="block text-sm mb-1">Phone</label>
             <input
               className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
-              placeholder="(904) 555‑0123"
+              placeholder="(848) 236‑9896"
               {...register("phone")}
             />
             {errors.phone && <p className="text-xs text-red-400 mt-1">{errors.phone.message}</p>}

@@ -27,8 +27,8 @@ export default function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-neutral-200 max-w-3xl mx-auto leading-relaxed"
           >
-            Ready to transform your First Coast home? Get a detailed quote and expert consultation 
-            from our coastal remodeling specialists.
+            Ready to transform your home? Get a detailed quote and expert consultation 
+            from our nationwide remodeling specialists.
           </motion.p>
         </div>
       </section>
@@ -48,20 +48,20 @@ export default function ContactPage() {
                   {
                     icon: Phone,
                     title: "Call Us",
-                    content: "(904) 555-0123",
+                    content: "(848) 236-9896",
                     subtitle: "Mon-Fri 8AM-6PM, Sat 9AM-4PM"
                   },
                   {
                     icon: Mail,
                     title: "Email Us", 
-                    content: "hello@firstcoasthome.com",
+                    content: "hello@firstcoastremod.com",
                     subtitle: "We respond within 24 hours"
                   },
                   {
                     icon: MapPin,
                     title: "Service Areas",
-                    content: "St. Johns County & First Coast",
-                    subtitle: "St. Augustine, Ponte Vedra, Jacksonville South"
+                    content: "Nationwide Coverage",
+                    subtitle: "All 50 states across the United States"
                   },
                   {
                     icon: Clock,
@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-[var(--brand-primary)] rounded-full" />
-                    Coastal-specific material recommendations
+                    Regional-specific material recommendations
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-[var(--brand-primary)] rounded-full" />
@@ -136,10 +136,10 @@ export default function ContactPage() {
           </h2>
           <p className="text-lg text-black/80 mb-8">
             Not ready for a quote yet? We're happy to discuss your ideas and answer any questions 
-            about coastal remodeling, materials, or our process.
+            about remodeling, materials, or our process.
           </p>
           <motion.a
-            href="tel:(904)555-0123"
+            href="tel:(848)236-9896"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white rounded-xl font-medium hover:bg-neutral-800 transition-colors"

@@ -15,10 +15,10 @@ export default function Home() {
         <div className="max-w-[1400px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-6">
-              Complete Coastal Solutions
+              Complete Remodeling Solutions
             </h2>
             <p className="text-lg sm:text-xl text-neutral-300 max-w-2xl mx-auto">
-              From planning to execution, we handle every aspect of your First Coast remodeling project
+              From planning to execution, we handle every aspect of your remodeling project nationwide
             </p>
           </div>
           <ServicesGrid />
@@ -62,7 +62,7 @@ export default function Home() {
               Start Your Project
             </h2>
             <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
-              Tell us about your vision and location. We'll create a detailed plan and provide transparent pricing for your First Coast remodeling project.
+              Tell us about your vision and location. We&apos;ll create a detailed plan and provide transparent pricing for your remodeling project, wherever you are.
             </p>
           </div>
           <QuoteForm />

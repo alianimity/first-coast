@@ -42,7 +42,7 @@ const processSteps = [
   }
 ];
 
-export function ProcessSection(): JSX.Element {
+export function ProcessSection() {
   return (
     <section className="py-24 bg-[var(--brand-support)]">
       <div className="max-w-[1400px] mx-auto px-6">
