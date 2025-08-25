@@ -128,112 +128,14 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Business Certifications & Trust Signals */}
+      {/* Service Capabilities Overview */}
       <section className="py-20 bg-neutral-900">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-              Licensed, Insured & Certified Professionals
-            </h2>
-            <p className="text-lg text-neutral-300 max-w-3xl mx-auto">
-              Work with confidence knowing your project is handled by fully licensed, insured, 
-              and certified professionals with comprehensive protection and warranties.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {[
-              {
-                icon: Shield,
-                title: "Fully Licensed",
-                description: "Licensed contractors in all 50 states with current certifications and compliance"
-              },
-              {
-                icon: Award,
-                title: "Comprehensive Insurance",
-                description: "$2M+ general liability coverage plus full workers' compensation protection"
-              },
-              {
-                icon: CheckCircle,
-                title: "EPA & OSHA Certified",
-                description: "EPA lead-safe certified and OSHA safety trained for all projects"
-              },
-              {
-                icon: Star,
-                title: "Quality Warranties",
-                description: "1-year workmanship warranty on all completed projects with clear contracts"
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="w-16 h-16 bg-[var(--brand-primary)]/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <item.icon className="w-8 h-8 text-[var(--brand-primary)]" />
-                </div>
-                <h3 className="text-lg font-medium text-white mb-3">{item.title}</h3>
-                <p className="text-sm text-neutral-300 leading-relaxed">{item.description}</p>
-              </motion.div>
-            ))}
-          </div>
-
-          <div className="bg-[var(--brand-support)] p-8 rounded-2xl border border-[var(--brand-primary)]/20">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-              <div className="lg:col-span-2">
-                <h3 className="text-2xl font-light text-white mb-4">Professional Credentials</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Licensed General Contractor</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>EPA Lead-Safe Certified</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>OSHA Safety Trained</span>
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Manufacturer Certified</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Bonded & Insured</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-neutral-300">
-                      <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Background Checked Teams</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="text-center lg:text-right">
-                <div className="inline-block bg-[var(--brand-primary)] text-black px-6 py-4 rounded-xl">
-                  <div className="text-2xl font-bold mb-1">$2M+</div>
-                  <div className="text-sm">Insurance Coverage</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Service Capabilities Overview */}
-      <section className="py-20 bg-[var(--brand-primary)]">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-light text-black mb-6">
               Complete Service Capabilities
             </h2>
-            <p className="text-lg text-black/80 max-w-3xl mx-auto">
+            <p className="text-lg text-neutral-300 max-w-3xl mx-auto">
               From initial planning to final execution, we handle every aspect of your remodeling project 
               with expertise, efficiency, and attention to detail.
             </p>
@@ -313,16 +215,16 @@ export default function ContactPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-black/10 p-6 rounded-xl border border-black/20"
+                className="bg-[var(--brand-support)] p-6 rounded-xl border border-[var(--brand-primary)]/20"
               >
-                <div className="w-12 h-12 bg-black/10 rounded-xl flex items-center justify-center mb-4">
-                  <service.icon className="w-6 h-6 text-black" />
+                <div className="w-12 h-12 bg-[var(--brand-primary)]/10 rounded-xl flex items-center justify-center mb-4">
+                  <service.icon className="w-6 h-6 text-[var(--brand-primary)]" />
                 </div>
-                <h3 className="text-lg font-medium text-black mb-4">{service.title}</h3>
+                <h3 className="text-lg font-medium text-white mb-4">{service.title}</h3>
                 <ul className="space-y-2">
                   {service.capabilities.map((capability, capIndex) => (
-                    <li key={capIndex} className="flex items-center gap-2 text-sm text-black/80">
-                      <div className="w-1.5 h-1.5 bg-black/60 rounded-full flex-shrink-0" />
+                    <li key={capIndex} className="flex items-center gap-2 text-sm text-neutral-300">
+                      <div className="w-1.5 h-1.5 bg-[var(--brand-primary)] rounded-full flex-shrink-0" />
                       <span>{capability}</span>
                     </li>
                   ))}
@@ -332,23 +234,23 @@ export default function ContactPage() {
           </div>
 
           <div className="text-center mt-12">
-            <div className="bg-black/10 p-6 rounded-xl border border-black/20 max-w-4xl mx-auto">
-              <h3 className="text-xl font-medium text-black mb-4">Project Size & Scope</h3>
+            <div className="bg-[var(--brand-support)] p-6 rounded-xl border border-[var(--brand-primary)]/20 max-w-4xl mx-auto">
+              <h3 className="text-xl font-medium text-white mb-4">Project Size & Scope</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-black mb-2">$500+</div>
-                  <div className="text-sm text-black/80">Minimum Project Size</div>
-                  <div className="text-xs text-black/60">Consultations & small repairs</div>
+                  <div className="text-2xl font-bold text-[var(--brand-primary)] mb-2">$500+</div>
+                  <div className="text-sm text-neutral-300">Minimum Project Size</div>
+                  <div className="text-xs text-neutral-400">Consultations & small repairs</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-black mb-2">$5K - $50K</div>
-                  <div className="text-sm text-black/80">Typical Project Range</div>
-                  <div className="text-xs text-black/60">Full room remodels</div>
+                  <div className="text-2xl font-bold text-[var(--brand-primary)] mb-2">$5K - $50K</div>
+                  <div className="text-sm text-neutral-300">Typical Project Range</div>
+                  <div className="text-xs text-neutral-400">Full room remodels</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-black mb-2">$100K+</div>
-                  <div className="text-sm text-black/80">Large-Scale Projects</div>
-                  <div className="text-xs text-black/60">Multi-room & whole home</div>
+                  <div className="text-2xl font-bold text-[var(--brand-primary)] mb-2">$100K+</div>
+                  <div className="text-sm text-neutral-300">Large-Scale Projects</div>
+                  <div className="text-xs text-neutral-400">Multi-room & whole home</div>
                 </div>
               </div>
             </div>
@@ -357,12 +259,12 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-neutral-900">
+      <section className="py-20 bg-[var(--brand-primary)]">
         <div className="max-w-[800px] mx-auto px-6 text-center">
-          <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-light text-black mb-6">
             Questions Before You Start?
           </h2>
-          <p className="text-lg text-neutral-300 mb-8">
+          <p className="text-lg text-black/80 mb-8">
             Not ready for a quote yet? We're happy to discuss your ideas and answer any questions 
             about remodeling, materials, or our process.
           </p>
@@ -370,7 +272,7 @@ export default function ContactPage() {
             href="tel:(848)236-9896"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-[var(--brand-primary)] text-black rounded-xl font-medium hover:bg-[var(--brand-primary)]/90 transition-colors"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white rounded-xl font-medium hover:bg-neutral-800 transition-colors"
           >
             Call Us Today
             <Phone className="w-5 h-5" />
