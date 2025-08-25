@@ -116,13 +116,13 @@ export default function Page() {
       </section>
 
       {/* Services Included */}
-      <section className="py-20 bg-neutral-50">
+      <section className="py-20 bg-neutral-900">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-light text-neutral-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
               What's Included
             </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+            <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
               Comprehensive cosmetic remodeling services designed for coastal durability and aesthetic excellence
             </p>
           </div>
@@ -159,14 +159,14 @@ export default function Page() {
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-6 shadow-sm"
+                className="bg-[var(--brand-support)] border border-[var(--brand-primary)]/20 rounded-2xl p-6"
               >
-                <h3 className="text-lg font-medium text-neutral-900 mb-4">{service.title}</h3>
+                <h3 className="text-lg font-medium text-white mb-4">{service.title}</h3>
                 <ul className="space-y-2">
                   {service.items.map((item, itemIndex) => (
                     <li key={item} className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-[var(--brand-primary)] rounded-full" />
-                      <span className="text-sm text-neutral-700">{item}</span>
+                      <span className="text-sm text-neutral-300">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -174,14 +174,14 @@ export default function Page() {
             ))}
           </div>
 
-          <div className="mt-12 p-6 bg-amber-50 border border-amber-200 rounded-2xl">
+          <div className="mt-12 p-6 bg-[var(--brand-primary)]/10 border border-[var(--brand-primary)]/20 rounded-2xl">
             <div className="flex items-center gap-3 mb-3">
-              <Shield className="w-5 h-5 text-amber-600" />
-              <h3 className="font-medium text-amber-900">Important Safety Notice</h3>
+              <Shield className="w-5 h-5 text-[var(--brand-primary)]" />
+              <h3 className="font-medium text-white">Important Safety Notice</h3>
             </div>
-            <p className="text-sm text-amber-800">
+            <p className="text-sm text-neutral-300">
               High-risk elements like electrical wiring, plumbing rerouting, or structural changes 
-              are outsourced to licensed Florida subcontractors with our oversight and coordination.
+              are outsourced to licensed subcontractors with our oversight and coordination.
             </p>
           </div>
         </div>
@@ -205,22 +205,19 @@ export default function Page() {
                 tier: "Basic Tier",
                 range: "$1,000–$5,000",
                 description: "Single-room painting, fixture swaps, minor repairs. Includes labor at $50–$75/hour plus materials.",
-                example: "One bedroom + bathroom paint refresh, new light fixtures, minor drywall touch-ups.",
-                color: "bg-neutral-50 border-neutral-200"
+                example: "One bedroom + bathroom paint refresh, new light fixtures, minor drywall touch-ups."
               },
               {
                 tier: "Standard Tier", 
                 range: "$5,000–$15,000",
                 description: "Multi-room improvements with quality materials and comprehensive scope.",
-                example: "Kitchen cabinet refacing, backsplash tile, new flooring in main areas, comprehensive paint package.",
-                color: "bg-blue-50 border-blue-200"
+                example: "Kitchen cabinet refacing, backsplash tile, new flooring in main areas, comprehensive paint package."
               },
               {
                 tier: "Premium Tier",
                 range: "$15,000–$50,000+", 
                 description: "Whole-home cosmetic renovations with luxury finishes and designer touches.",
-                example: "Complete interior painting, premium flooring throughout, custom trim work, designer fixtures, multiple bathroom updates.",
-                color: "bg-[var(--brand-primary)]/10 border-[var(--brand-primary)]/30"
+                example: "Complete interior painting, premium flooring throughout, custom trim work, designer fixtures, multiple bathroom updates."
               }
             ].map((tier, index) => (
               <motion.div
@@ -228,7 +225,7 @@ export default function Page() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className={`p-8 rounded-2xl border ${tier.color}`}
+                className="p-8 rounded-2xl border border-[var(--brand-primary)]/20 bg-[var(--brand-support)]"
               >
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-medium text-white">{tier.tier}</h3>
@@ -256,7 +253,7 @@ export default function Page() {
       </section>
 
       {/* Process Timeline */}
-      <section className="py-20 bg-[var(--brand-support)]">
+      <section className="py-20 bg-neutral-900">
         <div className="max-w-[1000px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
