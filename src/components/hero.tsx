@@ -30,10 +30,15 @@ export function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light tracking-tight leading-[0.9] mb-8">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light tracking-tight leading-[0.9] mb-6">
             <span className="block">Coastal Remodeling</span>
             <span className="block text-[var(--brand-primary)] font-medium">Reimagined</span>
           </h1>
+          
+          {/* Business Tagline */}
+          <div className="text-xl sm:text-2xl lg:text-3xl text-[var(--brand-primary)] font-light italic mb-8 tracking-wide">
+            Remodel, Repair, Renew – Coastal Expertise, Hands-On Results
+          </div>
           
           <p className="text-lg sm:text-xl lg:text-2xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-12 font-light">
             Expert remodeling and renovation services available nationwide. From planning to execution,
@@ -53,10 +58,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">500+</div>
+              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">1,250+</div>
               <div className="text-sm text-neutral-300 uppercase tracking-wide">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -66,6 +71,10 @@ export function Hero() {
             <div className="text-center">
               <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">50</div>
               <div className="text-sm text-neutral-300 uppercase tracking-wide">States Served</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">15+</div>
+              <div className="text-sm text-neutral-300 uppercase tracking-wide">Years Experience</div>
             </div>
           </motion.div>
         </motion.div>
