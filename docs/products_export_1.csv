@@ -1,0 +1,78 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+👍🏼-bundle-service-packages,🎁 Bundle Service Packages,"<div>
+<div><span>Bundle packages for lower the cost</span></div>
+</div>",Chronapex LLC,Product Add-Ons,Services,"Add-ons, Support, Upgrades",true,Service Type,Startup Launch Bundle,,,,,,,,ADD_UPG_002,0.0,,deny,manual,275.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/bundle-packages-illustration-with-brand-color-20a4f3.png?v=1754292107,1,"",false,Add-Ons & Upgrades | Upward Tech IO,Additional services and upgrades for enhanced support and maintenance,,g,,,active
+👍🏼-bundle-service-packages,,,,,,,,,Maintenance & Security Bundle,,,,,,,,ADD_UPG_005,0.0,,deny,manual,185.00,,false,true,,,,,,,,,g,,,
+👍🏼-bundle-service-packages,,,,,,,,,Enterprise Support Bundle,,,,,,,,ADD_UPG_001,0.0,,deny,manual,450.00,,false,true,,,,,,,,,g,,,
+📚-documentation-knowledge-transfer,📚 Documentation & Knowledge Transfer,"<div>
+<div><span>Enhance any project with complementary services designed to maximize value, ensure success, and provide ongoing support.</span></div>
+</div>",Chronapex LLC,Services > Professional Services > Consulting Services,Services,"Add-ons, Support, Upgrades",true,Service Type,SEO Quick Audit,,,,,,,,ADD_UPG_002,0.0,,deny,manual,85.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/documentation-knowledge-transfer-illustration-with-brand-color-20a4f3.png?v=1754282655,1,"",false,Add-Ons & Upgrades | Upward Tech IO,Additional services and upgrades for enhanced support and maintenance,,g,,,active
+📚-documentation-knowledge-transfer,,,,,,,,,Performance Optimization Audit,,,,,,,,ADD_UPG_005,0.0,,deny,manual,95.00,,false,true,,,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Technical Documentation Package,,,,,,,,ADD_UPG_001,0.0,,deny,manual,125.00,,false,true,,,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Express Integration Setup,,,,,,,,ADD_UPG_003,0.0,,deny,manual,125.00,,false,true,,,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Analytics Dashboard Setup,,,,,,,,ADD_UPG_004,0.0,,deny,manual,135.00,,false,true,,,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Security Hardening,,,,,,,,,0.0,,deny,manual,165.00,,false,true,"",,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Video Tutorial Series,,,,,,,,,0.0,,deny,manual,175.00,,false,true,"",,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Conversion Optimization Audit,,,,,,,,,0.0,,deny,manual,185.00,,false,true,"",,,,,,,,g,,,
+📚-documentation-knowledge-transfer,,,,,,,,,Team Training Session,,,,,,,,,0.0,,deny,manual,250.00,,false,true,"",,,,,,,,g,,,
+add-ons-upgrades,🚨 Support & Emergency Services,<p>Additional services and upgrades to enhance your technology solutions and ongoing support.</p>,Chronapex LLC,Services > Professional Services > IT & Technology,Services,"Add-ons, Support, Upgrades",true,Service Type,SSL Certificate & Security Setup,,,,,,,,ADD_UPG_002,0.0,,deny,manual,50.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/tech-support-emergency-services-illustration-with-brand-color-20a4f3.png?v=1754282656,1,"",false,Add-Ons & Upgrades | Upward Tech IO,Additional services and upgrades for enhanced support and maintenance,,g,,,active
+add-ons-upgrades,,,,,,,,,Emergency Support Call,,,,,,,,ADD_UPG_005,0.0,,deny,manual,75.00,,false,true,,,,,,,,,g,,,
+add-ons-upgrades,,,,,,,,,Backup & Recovery Setup,,,,,,,,ADD_UPG_001,0.0,,deny,manual,75.00,,false,true,,,,,,,,,g,,,
+add-ons-upgrades,,,,,,,,,Priority Technical Support,,,,,,,,ADD_UPG_003,0.0,,deny,manual,150.00,,false,true,,,,,,,,,g,,,
+add-ons-upgrades,,,,,,,,,Weekend/Holiday Rush Service,,,,,,,,ADD_UPG_004,0.0,,deny,manual,200.00,,false,true,,,,,,,,,g,,,
+strategy-support,⚡ Emerging Tech & Innovation,"<div>
+<div><span>Stay ahead of the curve with cutting-edge AI/ML, blockchain, AR/VR, and IoT solutions. We help you explore and implement emerging technologies that create competitive advantages and drive innovation in your industry.</span></div>
+</div>",Chronapex LLC,Services > Professional Services > IT & Technology,Services,"AI, AR, Blockchain, Emerging Tech, Innovation, IoT, ML, VR",true,Service Type,Innovation Workshop,,,,,,,,STR_SUP_001,0.0,,deny,manual,2500.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/emerging-tech-innovation-illustration-with-brand-color-20a4f3.png?v=1754281123,1,"",false,Business Strategy & Support Services | Upward Tech IO,Strategic consulting and support services including training and digital transformation,,g,,,active
+strategy-support,,,,,,,,,AI Chatbot Integration,,,,,,,,STR_SUP_002,0.0,,deny,manual,3200.00,,false,true,,,,,,,,,g,,,
+strategy-support,,,,,,,,,AI/ML Proof of Concept,,,,,,,,STR_SUP_003,0.0,,deny,manual,4500.00,,false,true,,,,,,,,,g,,,
+strategy-support,,,,,,,,,Data Analytics Platform,,,,,,,,STR_SUP_004,0.0,,deny,manual,5500.00,,false,true,,,,,,,,,g,,,
+strategy-support,,,,,,,,,Blockchain Smart Contract,,,,,,,,STR_SUP_005,0.0,,deny,manual,6000.00,,false,true,,,,,,,,,g,,,
+strategy-support,,,,,,,,,IoT Solution,,,,,,,,STR_SUP_006,0.0,,deny,manual,7200.00,,false,true,,,,,,,,,g,,,
+strategy-support,,,,,,,,,AR/VR Experience,,,,,,,,STR_SUP_007,0.0,,deny,manual,8500.00,,false,true,,,,,,,,,g,,,
+security-compliance,🏢 Industry-Specific Solutions,"<div>
+<div><span>Leverage deep domain expertise with tailored solutions for fintech, healthcare, e-commerce, and professional services. We understand industry regulations, compliance requirements, and user expectations to deliver specialized platforms.</span></div>
+</div>",Chronapex LLC,Services > Professional Services > IT & Technology,Services,"Compliance, E-commerce, Fintech, Healthcare, Industry Solutions",true,Service Type,Industry API Integration,,,,,,,,SEC_CMP_001,0.0,,deny,manual,2800.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/industry-specific-solutions-illustration-with-brand-color-20a4f3.png?v=1754281126,1,"",false,Security & Compliance Services | Upward Tech IO,Comprehensive security and compliance services including audits and penetration testing,,g,,,active
+security-compliance,,,,,,,,,Compliance Integration,,,,,,,,SEC_CMP_002,0.0,,deny,manual,3500.00,,false,true,,,,,,,,,g,,,
+security-compliance,,,,,,,,,Professional Services Portal,,,,,,,,SEC_CMP_003,0.0,,deny,manual,8500.00,,false,true,,,,,,,,,g,,,
+security-compliance,,,,,,,,,E-commerce Platform,,,,,,,,SEC_CMP_004,0.0,,deny,manual,10000.00,,false,true,,,,,,,,,g,,,
+security-compliance,,,,,,,,,Healthcare Portal,,,,,,,,SEC_CMP_005,0.0,,deny,manual,12000.00,,false,true,,,,,,,,,g,,,
+security-compliance,,,,,,,,,Fintech Platform MVP,,,,,,,,,0.0,,deny,manual,15000.00,,false,true,"",,,,,,,,g,,,
+cloud-infrastructure,"☁️ Cloud, DevOps & Security","<div>
+<div><span>Modernize your infrastructure with secure, scalable cloud solutions and automated DevOps pipelines. We ensure 99.9% uptime, robust security, and seamless deployments that keep your business running at peak performance.</span></div>
+</div>",Chronapex LLC,Software > Cloud Services,Services,"AWS, Azure, Cloud, DevOps, Infrastructure, Security",true,Service Type,Cloud Assessment,,,,,,,,CLD_INF_001,0.0,,deny,manual,1500.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/cloud-devops-security-illustration-with-brand-color-20a4f3.png?v=1754281121,1,"",false,Cloud Infrastructure Services | Upward Tech IO,Cloud computing and infrastructure services including migration and DevOps,,g,,,active
+cloud-infrastructure,,,,,,,,,Managed Cloud Services,,,,,,,,CLD_INF_005,0.0,,deny,manual,1500.00,,false,true,,,,,,,,,g,,,
+cloud-infrastructure,,,,,,,,,Security Audit,,,,,,,,,0.0,,deny,manual,2200.00,,false,true,"",,,,,,,,g,,,
+cloud-infrastructure,,,,,,,,,Disaster Recovery Setup,,,,,,,,,0.0,,deny,manual,2800.00,,false,true,"",,,,,,,,g,,,
+cloud-infrastructure,,,,,,,,,Infrastructure as Code,,,,,,,,CLD_INF_003,0.0,,deny,manual,3500.00,,false,true,,,,,,,,,g,,,
+cloud-infrastructure,,,,,,,,,DevOps Pipeline Setup,,,,,,,,CLD_INF_004,0.0,,deny,manual,4000.00,,false,true,,,,,,,,,g,,,
+cloud-infrastructure,,,,,,,,,Cloud Migration,,,,,,,,CLD_INF_002,0.0,,deny,manual,5000.00,,false,true,,,,,,,,,g,,,
+design-services,🎨 Design & User Experience,"<div>
+<div><span>Create compelling brand identities and intuitive user experiences that captivate audiences and drive engagement. From logos to complete design systems, we craft visual narratives that tell your story and convert visitors into customers.</span></div>
+</div>",Chronapex LLC,Software > Computer Software > Multimedia & Design Software > Graphic Design & Illustration Software,Services,"Branding, Design, Logo, UI, UX, Visual Identity",true,Service Type,Logo Design,,,,,,,,DSN_SRV_001,0.0,,deny,manual,500.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/digital-design-user-experience-illustration-with-brand-color-20a4f3.png?v=1754281127,1,"",false,Design Services | Upward Tech IO,Professional design services including logo design and UX/UI design,,g,,,active
+design-services,,,,,,,,,Illustrations,,,,,,,,DSN_SRV_007,0.0,,deny,manual,600.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Packaging Design,,,,,,,,DSN_SRV_008,0.0,,deny,manual,800.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,UX/UI Design,,,,,,,,DSN_SRV_002,0.0,,deny,manual,1000.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Dashboard Design,,,,,,,,DSN_SRV_003,0.0,,deny,manual,1200.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Marketing Materials,,,,,,,,DSN_SRV_004,0.0,,deny,manual,1800.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Brand Identity,,,,,,,,DSN_SRV_005,0.0,,deny,manual,2500.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Website Redesign,,,,,,,,,0.0,,deny,manual,3200.00,,false,true,"",,,,,,,,g,,,
+design-services,,,,,,,,,Design System,,,,,,,,DSN_SRV_006,0.0,,deny,manual,3800.00,,false,true,,,,,,,,,g,,,
+design-services,,,,,,,,,Complete Brand Overhaul,,,,,,,,,0.0,,deny,manual,7000.00,,false,true,"",,,,,,,,g,,,
+web-development,💻 Development & Engineering,"<div>
+<div><span>Build robust, scalable applications with modern technologies and best practices. Our expert developers create custom software, mobile apps, and web platforms that perform flawlessly and scale with your business growth.</span></div>
+</div>",Chronapex LLC,Services > Professional Services > IT & Technology,Services,"API, Development, Mobile Apps, Software, Web Apps",true,Service Type,Landing Page,,,,,,,,WEB_DEV_001,0.0,,deny,manual,1000.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/software-development-engineering-illustration-with-brand-color-20a4f3.png?v=1754281124,1,"",false,Web Development Services | Upward Tech IO,Professional web development including landing pages and CMS websites,,g,,,active
+web-development,,,,,,,,,Feature Development Sprint,,,,,,,,WEB_DEV_002,0.0,,deny,manual,2500.00,,false,true,,,,,,,,,g,,,
+web-development,,,,,,,,,Business Website,,,,,,,,WEB_DEV_003,0.0,,deny,manual,3500.00,,false,true,,,,,,,,,g,,,
+web-development,,,,,,,,,API Development,,,,,,,,WEB_DEV_004,0.0,,deny,manual,4000.00,,false,true,,,,,,,,,g,,,
+web-development,,,,,,,,,E-commerce Store,,,,,,,,,0.0,,deny,manual,5500.00,,false,true,"",,,,,,,,g,,,
+web-development,,,,,,,,,Web Application,,,,,,,,,0.0,,deny,manual,8000.00,,false,true,"",,,,,,,,g,,,
+web-development,,,,,,,,,Mobile App (MVP),,,,,,,,,0.0,,deny,manual,12000.00,,false,true,"",,,,,,,,g,,,
+web-development,,,,,,,,,Mobile App (Full),,,,,,,,,0.0,,deny,manual,25000.00,,false,true,"",,,,,,,,g,,,
+software-development,🎯 Strategic Advisory & Consulting,"<div>
+<div><span>Transform your business with data-driven strategies, digital transformation roadmaps, and executive guidance. We analyze markets, assess technologies, and create actionable growth plans that align with your vision and accelerate success.</span></div>
+</div>",Chronapex LLC,Services > Professional Services > Consulting Services,Services,"Advisory, Consulting, Digital Transformation, Strategy",true,Service Type,Strategy Consultation Call,,,,,,,,SFT_DEV_001,0.0,,deny,manual,200.00,,false,true,,https://cdn.shopify.com/s/files/1/0953/1736/0953/files/strategic-advisory-consulting-illustration-with-brand-color-20a4f3.png?v=1754281127,1,"",false,Software Development Services | Upward Tech IO,Custom software development services including feature sprints and API development,,g,,,active
+software-development,,,,,,,,,Business Strategy Report,,,,,,,,SFT_DEV_002,0.0,,deny,manual,500.00,,false,true,,,,,,,,,g,,,
+software-development,,,,,,,,,Market Research & Analysis,,,,,,,,SFT_DEV_005,0.0,,deny,manual,1200.00,,false,true,,,,,,,,,g,,,
+software-development,,,,,,,,,Technology Assessment,,,,,,,,SFT_DEV_004,0.0,,deny,manual,1800.00,,false,true,,,,,,,,,g,,,
+software-development,,,,,,,,,Digital Transformation Planning,,,,,,,,SFT_DEV_003,0.0,,deny,manual,2500.00,,false,true,,,,,,,,,g,,,
+software-development,,,,,,,,,Enterprise Advisory Retainer,,,,,,,,,0.0,,deny,manual,8000.00,,false,true,"",,,,,,,,g,,,

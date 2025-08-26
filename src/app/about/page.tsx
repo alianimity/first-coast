@@ -51,7 +51,7 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
             >
               <div className="mb-8">
-                <h3 className="text-2xl font-light text-white mb-4">15+ Years of Excellence</h3>
+                <h3 className="text-2xl font-light text-white mb-4">10+ Years of Excellence</h3>
                 <p className="text-neutral-300 leading-relaxed mb-6">
                   First Coast Home Remodeling and Repair, LLC was built on the foundation of combining 
                   expert project planning with hands-on execution, while prioritizing safety and risk 
@@ -68,12 +68,12 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div>
                     <div className="text-[var(--brand-primary)] font-medium">Founder & Managing Director</div>
-                    <div className="text-sm text-neutral-300">15+ years in remodeling and project management</div>
+                    <div className="text-sm text-neutral-300">10+ years in remodeling and project management</div>
                     <div className="text-sm text-neutral-300">Licensed contractor across multiple states</div>
                   </div>
                   <div>
                     <div className="text-[var(--brand-primary)] font-medium">Operations Team</div>
-                    <div className="text-sm text-neutral-300">Certified professionals with EPA, OSHA, and manufacturer credentials</div>
+                    <div className="text-sm text-neutral-300">Experienced professionals with safety training and industry expertise</div>
                     <div className="text-sm text-neutral-300">Background-checked and fully insured technicians</div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
                 <h4 className="text-xl font-medium mb-4">By the Numbers</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold">1,250+</div>
+                    <div className="text-2xl font-bold">500+</div>
                     <div className="text-sm opacity-80">Projects Completed</div>
                   </div>
                   <div className="text-center">
@@ -109,23 +109,23 @@ export default function AboutPage() {
               </div>
 
               <div className="bg-neutral-800 p-6 rounded-xl border border-neutral-700">
-                <h4 className="text-lg font-medium text-white mb-3">Certifications & Licenses</h4>
+                <h4 className="text-lg font-medium text-white mb-3">Professional Standards</h4>
                 <div className="space-y-2 text-sm text-neutral-300">
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                    <span>Licensed Contractor - All 50 States</span>
+                    <span>Nationwide Service Coverage - All 50 States</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                    <span>EPA Certified - Lead-Safe Work Practices</span>
+                    <span>Safety Training - Lead-Safe Work Practices</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                    <span>OSHA Safety Certified</span>
+                    <span>OSHA Safety Training</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--brand-primary)]" />
-                    <span>Manufacturer Certified Technicians</span>
+                    <span>Industry-Trained Technicians</span>
                   </div>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function AboutPage() {
               <p className="text-lg text-neutral-300 leading-relaxed mb-8">
                 Our hybrid approach prioritizes safety and quality while delivering exceptional results. 
                 We focus on cosmetic and low-risk remodeling services, strategically outsourcing complex 
-                work to licensed specialists when needed.
+                work to qualified specialists when needed.
               </p>
               
               <div className="space-y-6">
@@ -249,11 +249,11 @@ export default function AboutPage() {
                   <ul className="space-y-2 text-sm text-neutral-300">
                     <li className="flex items-center gap-2">
                       <Shield className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Electrical work (licensed electricians)</span>
+                      <span>Electrical work (qualified electricians)</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Shield className="w-4 h-4 text-[var(--brand-primary)]" />
-                      <span>Plumbing installations (certified plumbers)</span>
+                      <span>Plumbing installations (qualified plumbers)</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Shield className="w-4 h-4 text-[var(--brand-primary)]" />
@@ -286,8 +286,8 @@ export default function AboutPage() {
                       <div className="text-sm opacity-80">$2M+ general liability plus full workers&apos; compensation</div>
                     </div>
                     <div>
-                      <div className="font-medium mb-1">Licensing & Bonding</div>
-                      <div className="text-sm opacity-80">Licensed contractors with optional surety bonding available</div>
+                      <div className="font-medium mb-1">Professional Bonding</div>
+                      <div className="text-sm opacity-80">Qualified contractors with optional surety bonding available</div>
                     </div>
                     <div>
                       <div className="font-medium mb-1">Quality Warranties</div>

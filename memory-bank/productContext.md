@@ -1,7 +1,7 @@
 # Product Context
 
 ## Why This Exists
-Homeowners and property pros on Florida's First Coast need reliable, fast cosmetic remodels and repairs without the complexity and risk of full GC projects. We blend expert planning, efficient sourcing, and focused hands‑on work to deliver predictable outcomes.
+Homeowners and property professionals nationwide need reliable, fast cosmetic remodels and repairs without the complexity and risk of full GC projects. We blend expert planning, efficient sourcing, and focused hands‑on work to deliver predictable outcomes with coastal expertise applied nationally.
 
 ## Users & Personas
 - Homeowner Upgrader: wants aesthetic refresh, values guidance and quick turnaround
@@ -10,9 +10,10 @@ Homeowners and property pros on Florida's First Coast need reliable, fast cosmet
 - DIY Planner: needs designs, budgets, and sourcing without full labor
 
 ## Value Proposition
-- Hybrid delivery tailored to coastal needs (humidity, storms, historic areas)
+- Hybrid delivery with coastal expertise applied to projects nationwide
 - Transparent tiered pricing; one coordinator for plan→materials→install
 - Lower liability via cosmetic focus; licensed subs for specialized trades
+- Professional website and Shopify integration for seamless service booking
 
 ## Experience Principles
 - Clarity first: clear scopes, inclusions/exclusions, permit guidance

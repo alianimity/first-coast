@@ -49,12 +49,20 @@ export function Navbar() {
           {/* Logo */}
           <Link 
             href="/" 
-            className="flex items-center space-x-2 text-white font-semibold text-lg lg:text-xl tracking-tight hover:text-[var(--brand-primary)] transition-colors"
+            className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <div className="w-8 h-8 bg-[var(--brand-primary)] rounded-lg flex items-center justify-center">
-              <span className="text-black font-bold text-sm">FC</span>
-            </div>
-            <span className="hidden sm:block">First Coast</span>
+            {/* Logo Icon */}
+            <img 
+              src="/logos/SVGs/icon-white.svg" 
+              alt="First Coast Home Remodeling Logo" 
+              className="w-8 h-8 lg:w-10 lg:h-10"
+            />
+            {/* Logo Text - Hidden on small screens, visible on sm+ */}
+            <img 
+              src="/logos/SVGs/text-all-white.svg" 
+              alt="First Coast Home Remodeling" 
+              className="hidden sm:block h-6 lg:h-8 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

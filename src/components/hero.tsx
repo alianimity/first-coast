@@ -42,7 +42,7 @@ export function Hero() {
           
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-8 md:mb-12 font-light px-4 sm:px-0">
             Expert remodeling and renovation services available nationwide. From planning to execution,
-            we bring professional-grade transformations to your home, wherever you are.
+            we bring quality transformations to your home, wherever you are.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 md:mb-16 px-4 sm:px-0">
@@ -61,7 +61,7 @@ export function Hero() {
             className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">1,250+</div>
+              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">500+</div>
               <div className="text-sm text-neutral-300 uppercase tracking-wide">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -73,7 +73,7 @@ export function Hero() {
               <div className="text-sm text-neutral-300 uppercase tracking-wide">States Served</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">15+</div>
+              <div className="text-3xl font-bold text-[var(--brand-primary)] mb-2">10+</div>
               <div className="text-sm text-neutral-300 uppercase tracking-wide">Years Experience</div>
             </div>
           </motion.div>

@@ -21,7 +21,7 @@ const reviews: Review[] = [
     rating: 5,
   },
   {
-    name: "Coastal Rentals LLC",
+    name: "David M.",
     city: "Jacksonville South",
     content:
       "Fast turnover paint and logistics for 4 units. Easy to work with.",

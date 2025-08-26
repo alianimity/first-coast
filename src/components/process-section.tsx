@@ -30,8 +30,8 @@ const processSteps = [
     number: "04",
     title: "Execute",
     subtitle: "Expert Hands-On Craftsmanship", 
-    description: "Our vetted teams handle cosmetic execution while licensed subcontractors manage specialized trades. Every project includes milestone updates and photo documentation.",
-    features: ["Licensed professionals", "Progress tracking", "Quality control", "Photo updates"]
+    description: "Our vetted teams handle cosmetic execution while qualified subcontractors manage specialized trades. Every project includes milestone updates and photo documentation.",
+    features: ["Skilled professionals", "Progress tracking", "Quality control", "Photo updates"]
   },
   {
     number: "05",
@@ -132,7 +132,7 @@ function ProcessStep({ step, index }: { step: typeof processSteps[0], index: num
           initial={{ opacity: 0, scale: 0.9 }}
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-2xl overflow-hidden relative"
+          className="aspect-[4/3] bg-gradient-to-br from-neutral-800 to-neutral-700 rounded-2xl overflow-hidden relative border border-neutral-600"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-primary)]/10 to-[var(--brand-support)]/5" />
           <div className="absolute inset-0 flex items-center justify-center">

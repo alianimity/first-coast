@@ -22,7 +22,22 @@
 - Scope discipline; OSHA safety; insurance minimums; background checks
 - Historic/hurricane contexts flagged early; use compliant materials
 
+## Website Architecture
+- Next.js App Router with TypeScript for type safety
+- Tailwind CSS for utility-first styling with custom CSS variables
+- Component hierarchy: Layout → Pages → Sections → UI Components
+- Framer Motion for smooth animations and interactions
+- Responsive design with mobile-first approach
+
+## Shopify Integration Pattern
+- 5 main service categories as Shopify products
+- Individual services (4 per category) as product variants
+- CSV import structure with proper column alignment
+- Professional product images and descriptions
+
 ## Scalability
-- Start St. Johns radius; expand to Duval/Nassau with partner suppliers
-- Potential franchise/partner play after process maturity
+- Nationwide service model with coastal expertise
+- Website deployed on Vercel for global performance
+- Shopify catalog ready for e-commerce integration
+- Component-based architecture for easy maintenance and updates
 

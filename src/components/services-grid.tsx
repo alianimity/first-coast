@@ -35,7 +35,7 @@ const services: Service[] = [
   },
   {
     title: "Trade & Barter Facilitation",
-    blurb: "Sustainable material exchanges with professional valuations and logistics support.",
+    blurb: "Sustainable material exchanges with expert valuations and logistics support.",
     href: "/services/trade",
     icon: RefreshCw,
     stats: "10-15% Commission"

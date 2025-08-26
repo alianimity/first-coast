@@ -10,16 +10,22 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-[var(--brand-primary)] rounded-lg flex items-center justify-center">
-                <span className="text-black font-bold">FC</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white">First Coast Home Remodeling</h3>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/logos/SVGs/icon-white.svg" 
+                alt="First Coast Home Remodeling Logo" 
+                className="w-10 h-10"
+              />
+              <img 
+                src="/logos/SVGs/text-all-white.svg" 
+                alt="First Coast Home Remodeling" 
+                className="h-6 w-auto"
+              />
             </div>
             
             <p className="text-neutral-300 mb-8 max-w-md leading-relaxed">
               Expert remodeling services available nationwide. From planning to execution, 
-              we deliver professional-grade transformations across all 50 states.
+              we deliver quality transformations across all 50 states.
             </p>
 
             <div className="space-y-4">

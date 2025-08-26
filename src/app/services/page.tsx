@@ -236,7 +236,7 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
 
       {/* Visual */}
       <div className={`${isEven ? '' : 'lg:col-start-1'} relative`}>
-        <div className="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-2xl overflow-hidden">
+        <div className="aspect-[4/3] bg-gradient-to-br from-neutral-800 to-neutral-700 rounded-2xl overflow-hidden border border-neutral-600">
           <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-primary)]/10 to-[var(--brand-support)]/5" />
           <div className="absolute inset-0 flex items-center justify-center">
             <Icon className="w-24 h-24 text-neutral-300 opacity-50" />

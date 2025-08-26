@@ -1,7 +1,7 @@
 const faqs = [
   {
-    q: "Do you handle permits and licensed trades?",
-    a: "We focus on cosmetic work that keeps liability low. When permits or specialized trades (electrical, plumbing, structural) are needed, we coordinate licensed Florida subcontractors and pass through permit fees. All jobs over $2,500 require permits per St. Johns County Building Services.",
+    q: "Do you handle permits and specialized trades?",
+    a: "We focus on cosmetic work that keeps liability low. When permits or specialized trades (electrical, plumbing, structural) are needed, we coordinate qualified subcontractors and pass through permit fees. Permit requirements vary by location and project scope.",
   },
   {
     q: "What areas do you serve?",

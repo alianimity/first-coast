@@ -117,7 +117,7 @@ export default function Page() {
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-2xl overflow-hidden relative"
+              className="aspect-[4/3] bg-gradient-to-br from-neutral-800 to-neutral-700 rounded-2xl overflow-hidden relative border border-neutral-600"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-primary)]/10 to-[var(--brand-support)]/5" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -289,7 +289,7 @@ export default function Page() {
             Ready to Source Your Materials?
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Get access to wholesale pricing and professional procurement services. 
+            Get access to wholesale pricing and expert procurement services. 
             Let us handle the sourcing while you focus on your project.
           </p>
           <motion.a
