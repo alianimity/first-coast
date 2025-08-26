@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, RefreshCw, CheckCircle, Recycle } from "lucide-react";
+import { ArrowRight, Search, Shield, Clock, Star, CheckCircle, FileText } from "lucide-react";
 import { Breadcrumbs } from "../../../components/breadcrumbs";
 import { RelatedServices } from "../../../components/related-services";
 
 export default function Page() {
   const breadcrumbItems = [
     { label: "Services", href: "/services" },
-    { label: "Trade & Barter" }
+    { label: "Home Inspection & Assessment" }
   ];
 
   return (
@@ -30,14 +30,14 @@ export default function Page() {
             className="flex items-center justify-center gap-4 mb-6"
           >
             <div className="p-4 bg-[var(--brand-primary)]/10 rounded-2xl">
-              <RefreshCw className="w-12 h-12 text-[var(--brand-primary)]" />
+              <Search className="w-12 h-12 text-[var(--brand-primary)]" />
             </div>
             <div className="text-left">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white leading-tight">
-                Trade & Barter Facilitation
+                Home Inspection & Assessment
               </h1>
               <p className="text-lg text-[var(--brand-primary)] font-medium mt-2">
-                Sustainable Material Exchanges
+                Professional Property Evaluations & Pre-Renovation Insights
               </p>
             </div>
           </motion.div>
@@ -48,8 +48,8 @@ export default function Page() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-8"
           >
-            Professional valuations and logistics for material exchanges, helping reduce waste while maximizing your project budget. 
-            Turn surplus materials into valuable resources for your next renovation.
+            Make informed decisions with professional property assessments. From basic room evaluations to comprehensive 
+            pre-renovation inspections, we provide detailed insights to guide your project planning.
           </motion.p>
 
           <motion.div
@@ -59,16 +59,16 @@ export default function Page() {
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">10-15%</div>
-              <div className="text-sm text-neutral-300">Commission Rate</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">$50-$800</div>
+              <div className="text-sm text-neutral-300">Investment Range</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">Ongoing</div>
-              <div className="text-sm text-neutral-300">Service Availability</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">1-3 Days</div>
+              <div className="text-sm text-neutral-300">Turnaround</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">100%</div>
-              <div className="text-sm text-neutral-300">Waste Reduction</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">Detailed Report</div>
+              <div className="text-sm text-neutral-300">Comprehensive</div>
             </div>
           </motion.div>
         </div>
@@ -84,20 +84,20 @@ export default function Page() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-                Smart Material Exchange
+                Professional Property Insights
               </h2>
               <p className="text-lg text-neutral-300 leading-relaxed mb-8">
-                Our trade and barter service connects you with a network of homeowners, contractors, and suppliers 
-                to exchange surplus materials. We handle valuations, negotiations, and logistics, turning your unused 
-                materials into valuable resources for your next project.
+                Our comprehensive inspections provide the detailed insights you need to make informed decisions. 
+                From basic room evaluations to complete pre-renovation assessments, we deliver professional 
+                documentation that protects your investment.
               </p>
               
               <div className="space-y-4">
                 {[
-                  "Professional material valuations",
-                  "Extensive exchange network", 
-                  "Logistics coordination and delivery",
-                  "Environmental impact reduction"
+                  "Detailed structural assessments",
+                  "Comprehensive photo documentation", 
+                  "Professional issue identification",
+                  "Written recommendations and reports"
                 ].map((item, index) => (
                   <motion.div
                     key={item}
@@ -121,7 +121,7 @@ export default function Page() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-primary)]/10 to-[var(--brand-support)]/5" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <RefreshCw className="w-24 h-24 text-neutral-300 opacity-50" />
+                <Search className="w-24 h-24 text-neutral-300 opacity-50" />
               </div>
             </motion.div>
           </div>
@@ -136,35 +136,35 @@ export default function Page() {
               What&apos;s Included
             </h2>
             <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
-              Comprehensive trade and barter services designed for sustainable material exchanges
+              Comprehensive inspection services designed to provide complete property insights
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Professional Valuations",
-                items: ["Market value assessment", "Condition evaluation", "Fair exchange rates", "Documentation provided"]
+                title: "Structural Assessment",
+                items: ["Foundation inspection", "Wall integrity check", "Roof system evaluation", "Framing analysis"]
               },
               {
-                title: "Exchange Facilitation", 
-                items: ["Partner matching", "Negotiation support", "Contract coordination", "Transaction oversight"]
+                title: "Systems Evaluation", 
+                items: ["HVAC overview", "Electrical assessment", "Plumbing review", "Insulation check"]
               },
               {
-                title: "Logistics Support",
-                items: ["Pickup coordination", "Delivery scheduling", "Transportation assistance", "Storage solutions"]
+                title: "Safety & Compliance",
+                items: ["Code compliance check", "Safety hazard identification", "Environmental concerns", "Accessibility review"]
               },
               {
-                title: "Quality Assurance",
-                items: ["Material inspection", "Condition verification", "Quality standards", "Dispute resolution"]
+                title: "Documentation",
+                items: ["Comprehensive photo report", "Written findings summary", "Priority issue ranking", "Recommendation list"]
               },
               {
-                title: "Environmental Impact",
-                items: ["Waste reduction tracking", "Sustainability reporting", "Carbon footprint reduction", "Recycling coordination"]
+                title: "Pre-Renovation Focus",
+                items: ["Renovation feasibility", "Potential challenges", "Budget impact analysis", "Timeline considerations"]
               },
               {
-                title: "Network Access",
-                items: ["Extensive partner network", "Contractor connections", "Supplier relationships", "Community exchanges"]
+                title: "Follow-up Support",
+                items: ["Report clarification", "Contractor referrals", "Priority planning", "Cost estimation guidance"]
               }
             ].map((service, index) => (
               <motion.div
@@ -194,32 +194,38 @@ export default function Page() {
         <div className="max-w-[1000px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-              Commission-Based Pricing
+              Transparent Pricing
             </h2>
             <p className="text-lg text-neutral-300">
-              You only pay when we successfully complete a trade
+              Clear, upfront pricing for professional inspection services
             </p>
           </div>
 
           <div className="space-y-6">
             {[
               {
-                tier: "Basic Trades",
-                range: "10% Commission",
-                description: "Small material exchanges valued under $10,000. Includes basic valuation and coordination.",
-                example: "Trading old cabinets for flooring materials, exchanging surplus tile for paint supplies."
+                tier: "Basic Room Assessment",
+                range: "$50–$150",
+                description: "Single room evaluation for specific concerns. Includes visual inspection and basic findings report.",
+                example: "Bathroom moisture assessment, bedroom ceiling evaluation, kitchen layout review."
               },
               {
-                tier: "Standard Exchanges", 
-                range: "12% Commission",
-                description: "Medium value trades between $10,000-$50,000 with enhanced services.",
-                example: "Kitchen appliance trade for bathroom fixtures, bulk material exchanges between contractors."
+                tier: "Standard Property Inspection",
+                range: "$300–$500",
+                description: "Comprehensive home inspection covering major systems and structural elements. Full photo documentation included.",
+                example: "Complete home evaluation, HVAC assessment, electrical overview, foundation inspection."
               },
               {
-                tier: "Premium Trades",
-                range: "15% Commission", 
-                description: "High-value exchanges over $50,000 with full-service support.",
-                example: "Complete room exchanges, specialty material trades, multi-party exchanges."
+                tier: "Specialized Assessment",
+                range: "$150–$300",
+                description: "Focused inspection for specific issues or systems. Energy efficiency, moisture, or safety evaluations.",
+                example: "Energy audit, moisture inspection, pre-purchase evaluation, renovation feasibility study."
+              },
+              {
+                tier: "Pre-Renovation Assessment",
+                range: "$200–$800",
+                description: "Detailed evaluation before major renovations. Includes recommendations and planning insights.",
+                example: "Kitchen renovation prep, bathroom remodel planning, addition feasibility, structural modifications."
               }
             ].map((tier, index) => (
               <motion.div
@@ -241,28 +247,28 @@ export default function Page() {
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-[var(--brand-primary)]/10 border border-[var(--brand-primary)]/20 rounded-2xl">
+          <div className="mt-8 p-6 bg-[var(--brand-primary)]/10 rounded-2xl border border-[var(--brand-primary)]/20">
             <div className="flex items-center gap-3 mb-3">
-              <Recycle className="w-5 h-5 text-[var(--brand-primary)]" />
-              <h3 className="font-medium text-white">Environmental Impact</h3>
+              <FileText className="w-5 h-5 text-[var(--brand-primary)]" />
+              <h3 className="font-medium text-white">Detailed Reports</h3>
             </div>
-            <p className="text-sm text-neutral-300">
-              Our trade and barter service diverts thousands of pounds of construction materials from landfills annually, 
-              supporting sustainable building practices and reducing environmental impact while saving you money.
+            <p className="text-neutral-300">
+              All inspections include comprehensive photo documentation and detailed written reports. 
+              Add-ons: repair cost estimates (+$100), contractor referrals, and priority re-inspections after repairs.
             </p>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-[var(--brand-primary)]">
+      <section className="py-24 bg-[var(--brand-primary)]">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-light text-black mb-6">
-            Turn Surplus into Savings
+            Get Professional Property Insights
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Start your material exchange today. Get an expert valuation and discover 
-            how much your surplus materials are worth in trade value.
+            Schedule a comprehensive inspection and make informed decisions about your property. 
+            Professional assessments that save time and money.
           </p>
           <motion.a
             href="/contact"
@@ -270,14 +276,13 @@ export default function Page() {
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white rounded-xl font-medium hover:bg-neutral-800 transition-colors"
           >
-            Get Trade Valuation
+            Schedule Inspection
             <ArrowRight className="w-5 h-5" />
           </motion.a>
         </div>
       </section>
 
-      {/* Related Services */}
-      <RelatedServices currentService="trade" />
+      <RelatedServices currentService="inspection" />
     </main>
   );
 }

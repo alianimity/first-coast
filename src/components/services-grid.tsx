@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Palette, Lightbulb, Package, RefreshCw, Truck } from "lucide-react";
+import { ArrowRight, Palette, Lightbulb, Package, RefreshCw, Truck, Search, Wrench, Brush } from "lucide-react";
 
 type Service = {
   title: string;
@@ -46,6 +46,27 @@ const services: Service[] = [
     href: "/services/logistics", 
     icon: Truck,
     stats: "$500 - $30K+"
+  },
+  {
+    title: "Home Inspection & Assessment",
+    blurb: "Professional property evaluations and pre-renovation assessments for informed decisions.",
+    href: "/services/inspection",
+    icon: Search,
+    stats: "$50 - $800"
+  },
+  {
+    title: "Maintenance & Repair Services",
+    blurb: "Ongoing maintenance and quick repairs to keep your home in perfect condition.",
+    href: "/services/maintenance",
+    icon: Wrench,
+    stats: "$75 - $2K+"
+  },
+  {
+    title: "Color & Design Consultation",
+    blurb: "Expert color schemes and design guidance to transform your space's aesthetic.",
+    href: "/services/design",
+    icon: Brush,
+    stats: "$100 - $1.5K"
   },
 ];
 

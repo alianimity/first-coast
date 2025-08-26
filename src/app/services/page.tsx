@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Palette, Lightbulb, Package, RefreshCw, Truck, CheckCircle, Clock, DollarSign } from "lucide-react";
+import { ArrowRight, Palette, Lightbulb, Package, RefreshCw, Truck, Search, Wrench, Brush, CheckCircle, Clock, DollarSign } from "lucide-react";
 
 const services = [
   {
@@ -63,6 +63,42 @@ const services = [
     timeline: "Project duration",
     features: ["Timeline coordination", "Subcontractor management", "Quality control", "Progress tracking", "Communication hub", "Final walkthrough"],
     image: "/services/logistics-hero.jpg"
+  },
+  {
+    id: "inspection",
+    title: "Home Inspection & Assessment",
+    subtitle: "Professional Property Evaluations",
+    description: "Comprehensive property assessments and pre-renovation inspections to help you make informed decisions about your project.",
+    href: "/services/inspection",
+    icon: Search,
+    priceRange: "$50 - $800",
+    timeline: "1-3 days",
+    features: ["Structural evaluation", "Pre-renovation assessment", "Photo documentation", "Detailed reports", "Issue identification", "Recommendations"],
+    image: "/services/inspection-hero.jpg"
+  },
+  {
+    id: "maintenance",
+    title: "Maintenance & Repair Services",
+    subtitle: "Keep Your Home in Perfect Condition",
+    description: "Ongoing maintenance and quick repairs to protect your investment and keep your home looking and functioning its best.",
+    href: "/services/maintenance",
+    icon: Wrench,
+    priceRange: "$75 - $2,000+",
+    timeline: "Same day - 1 week",
+    features: ["Emergency repairs", "Preventive maintenance", "Seasonal services", "Annual plans", "Quick fixes", "Priority service"],
+    image: "/services/maintenance-hero.jpg"
+  },
+  {
+    id: "design",
+    title: "Color & Design Consultation",
+    subtitle: "Expert Design Guidance",
+    description: "Professional color schemes and design consultation to transform your space's aesthetic with expert guidance and 3D visualization.",
+    href: "/services/design",
+    icon: Brush,
+    priceRange: "$100 - $1,500",
+    timeline: "1-2 weeks",
+    features: ["Color consultation", "Room design planning", "Virtual services", "3D visualization", "Material selection", "Design coordination"],
+    image: "/services/design-hero.jpg"
   }
 ];
 

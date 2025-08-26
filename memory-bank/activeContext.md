@@ -19,6 +19,10 @@
 - Fixed white card styling to dark theme throughout site
 - Corrected cosmetic remodeling page positioning issues (added missing relative class)
 - Updated project numbers (1,250+ → 500+) and experience years (15+ → 10+) for accuracy
+- Added 3 new service categories: Home Inspection & Assessment ($50-$800), Maintenance & Repair ($75-$2K+), Color & Design Consultation ($100-$1.5K)
+- Ensured perfect design consistency across all 8 service pages with unique special cards
+- Fixed Trade & Barter page to match established structure (added missing "What's Included" section)
+- Created service ladder from $50 entry points to $50K+ premium offerings
 
 ## Next Steps
 - Only remaining task: Project portfolio/gallery section
@@ -42,4 +46,7 @@
 - Legal compliance requires careful language around licensing and certification claims
 - CSS positioning issues (missing relative class) can cause complex layout problems
 - Realistic numbers (500+ projects, 10+ years) build more credible trust than inflated claims
+- Service ladder with $50+ entry points creates natural customer journey to premium services
+- Consistent page structure with unique special cards maintains brand cohesion while highlighting service differentiation
+- Each service page needs unique icons and messaging in special cards (not generic "Bundled Savings")
 

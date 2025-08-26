@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, RefreshCw, CheckCircle, Recycle } from "lucide-react";
+import { ArrowRight, Brush, Shield, Clock, Star, CheckCircle, Monitor } from "lucide-react";
 import { Breadcrumbs } from "../../../components/breadcrumbs";
 import { RelatedServices } from "../../../components/related-services";
 
 export default function Page() {
   const breadcrumbItems = [
     { label: "Services", href: "/services" },
-    { label: "Trade & Barter" }
+    { label: "Color & Design Consultation" }
   ];
 
   return (
@@ -30,14 +30,14 @@ export default function Page() {
             className="flex items-center justify-center gap-4 mb-6"
           >
             <div className="p-4 bg-[var(--brand-primary)]/10 rounded-2xl">
-              <RefreshCw className="w-12 h-12 text-[var(--brand-primary)]" />
+              <Brush className="w-12 h-12 text-[var(--brand-primary)]" />
             </div>
             <div className="text-left">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white leading-tight">
-                Trade & Barter Facilitation
+                Color & Design Consultation
               </h1>
               <p className="text-lg text-[var(--brand-primary)] font-medium mt-2">
-                Sustainable Material Exchanges
+                Transform Your Space with Expert Design Guidance
               </p>
             </div>
           </motion.div>
@@ -48,8 +48,8 @@ export default function Page() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-neutral-200 max-w-3xl mx-auto leading-relaxed mb-8"
           >
-            Professional valuations and logistics for material exchanges, helping reduce waste while maximizing your project budget. 
-            Turn surplus materials into valuable resources for your next renovation.
+            Professional color schemes and design guidance that transform any space. From color consultations 
+            to complete room design, we help you create the perfect aesthetic for your home.
           </motion.p>
 
           <motion.div
@@ -59,16 +59,16 @@ export default function Page() {
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">10-15%</div>
-              <div className="text-sm text-neutral-300">Commission Rate</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">$100-$1.5K</div>
+              <div className="text-sm text-neutral-300">Investment Range</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">Ongoing</div>
-              <div className="text-sm text-neutral-300">Service Availability</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">Remote Available</div>
+              <div className="text-sm text-neutral-300">Virtual Consultations</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">100%</div>
-              <div className="text-sm text-neutral-300">Waste Reduction</div>
+              <div className="text-2xl font-bold text-[var(--brand-primary)] mb-1">3D Visuals</div>
+              <div className="text-sm text-neutral-300">See Before You Buy</div>
             </div>
           </motion.div>
         </div>
@@ -84,20 +84,20 @@ export default function Page() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-                Smart Material Exchange
+                Transform with Expert Design
               </h2>
               <p className="text-lg text-neutral-300 leading-relaxed mb-8">
-                Our trade and barter service connects you with a network of homeowners, contractors, and suppliers 
-                to exchange surplus materials. We handle valuations, negotiations, and logistics, turning your unused 
-                materials into valuable resources for your next project.
+                Professional design guidance that brings your vision to life. From expert color selection to 
+                complete room transformations, our design consultations save you time, money, and ensure 
+                stunning results that reflect your personal style.
               </p>
               
               <div className="space-y-4">
                 {[
-                  "Professional material valuations",
-                  "Extensive exchange network", 
-                  "Logistics coordination and delivery",
-                  "Environmental impact reduction"
+                  "Professional color theory and selection",
+                  "3D visualization and room planning", 
+                  "Virtual consultations available",
+                  "Complete material specifications"
                 ].map((item, index) => (
                   <motion.div
                     key={item}
@@ -121,7 +121,7 @@ export default function Page() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--brand-primary)]/10 to-[var(--brand-support)]/5" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <RefreshCw className="w-24 h-24 text-neutral-300 opacity-50" />
+                <Brush className="w-24 h-24 text-neutral-300 opacity-50" />
               </div>
             </motion.div>
           </div>
@@ -136,35 +136,35 @@ export default function Page() {
               What&apos;s Included
             </h2>
             <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
-              Comprehensive trade and barter services designed for sustainable material exchanges
+              Comprehensive design services tailored to transform your space
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Professional Valuations",
-                items: ["Market value assessment", "Condition evaluation", "Fair exchange rates", "Documentation provided"]
+                title: "Color Consultation",
+                items: ["Professional color selection", "Paint & finish recommendations", "Lighting considerations", "Accent color coordination"]
               },
               {
-                title: "Exchange Facilitation", 
-                items: ["Partner matching", "Negotiation support", "Contract coordination", "Transaction oversight"]
+                title: "Room Design Planning", 
+                items: ["Layout optimization", "Furniture recommendations", "Flow & functionality", "Style coordination"]
               },
               {
-                title: "Logistics Support",
-                items: ["Pickup coordination", "Delivery scheduling", "Transportation assistance", "Storage solutions"]
+                title: "Virtual Services",
+                items: ["Remote consultations", "Digital mood boards", "Online shopping lists", "Email support"]
               },
               {
-                title: "Quality Assurance",
-                items: ["Material inspection", "Condition verification", "Quality standards", "Dispute resolution"]
+                title: "3D Visualization",
+                items: ["Realistic renderings", "Multiple design options", "Before & after views", "Detail specifications"]
               },
               {
-                title: "Environmental Impact",
-                items: ["Waste reduction tracking", "Sustainability reporting", "Carbon footprint reduction", "Recycling coordination"]
+                title: "Material Selection",
+                items: ["Fabric & texture guidance", "Finish recommendations", "Quality assessments", "Budget considerations"]
               },
               {
-                title: "Network Access",
-                items: ["Extensive partner network", "Contractor connections", "Supplier relationships", "Community exchanges"]
+                title: "Implementation Support",
+                items: ["Contractor coordination", "Installation guidance", "Quality oversight", "Final styling"]
               }
             ].map((service, index) => (
               <motion.div
@@ -194,32 +194,38 @@ export default function Page() {
         <div className="max-w-[1000px] mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-light text-white mb-6">
-              Commission-Based Pricing
+              Design Service Options
             </h2>
             <p className="text-lg text-neutral-300">
-              You only pay when we successfully complete a trade
+              Professional design guidance at every level
             </p>
           </div>
 
           <div className="space-y-6">
             {[
               {
-                tier: "Basic Trades",
-                range: "10% Commission",
-                description: "Small material exchanges valued under $10,000. Includes basic valuation and coordination.",
-                example: "Trading old cabinets for flooring materials, exchanging surplus tile for paint supplies."
+                tier: "Color Consultation",
+                range: "$100–$300",
+                description: "Expert color selection for individual rooms or specific areas. 1-2 hour personalized sessions with professional recommendations.",
+                example: "Paint color selection, accent colors, color coordination, lighting considerations, sample recommendations."
               },
               {
-                tier: "Standard Exchanges", 
-                range: "12% Commission",
-                description: "Medium value trades between $10,000-$50,000 with enhanced services.",
-                example: "Kitchen appliance trade for bathroom fixtures, bulk material exchanges between contractors."
+                tier: "Room Design Planning",
+                range: "$300–$800",
+                description: "Comprehensive design planning for single rooms including layout, color, materials, and furniture recommendations.",
+                example: "Living room makeover, bedroom redesign, kitchen color scheme, bathroom transformation, office design."
               },
               {
-                tier: "Premium Trades",
-                range: "15% Commission", 
-                description: "High-value exchanges over $50,000 with full-service support.",
-                example: "Complete room exchanges, specialty material trades, multi-party exchanges."
+                tier: "Virtual Design Services",
+                range: "$150–$500",
+                description: "Remote design consultations with digital mood boards and shopping lists. Perfect for out-of-area clients.",
+                example: "Video consultations, digital color palettes, online shopping lists, email support, photo analysis."
+              },
+              {
+                tier: "3D Visualization & Complete Design",
+                range: "$400–$1,500",
+                description: "Full design service with 3D renderings, detailed plans, and complete material specifications for major transformations.",
+                example: "Multiple room designs, 3D renderings, material specifications, contractor coordination, project oversight."
               }
             ].map((tier, index) => (
               <motion.div
@@ -235,34 +241,34 @@ export default function Page() {
                 </div>
                 <p className="text-neutral-300 mb-3">{tier.description}</p>
                 <p className="text-sm text-neutral-400">
-                  <strong>Example:</strong> {tier.example}
+                  <strong>Includes:</strong> {tier.example}
                 </p>
               </motion.div>
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-[var(--brand-primary)]/10 border border-[var(--brand-primary)]/20 rounded-2xl">
+          <div className="mt-8 p-6 bg-[var(--brand-primary)]/10 rounded-2xl border border-[var(--brand-primary)]/20">
             <div className="flex items-center gap-3 mb-3">
-              <Recycle className="w-5 h-5 text-[var(--brand-primary)]" />
-              <h3 className="font-medium text-white">Environmental Impact</h3>
+              <Monitor className="w-5 h-5 text-[var(--brand-primary)]" />
+              <h3 className="font-medium text-white">Virtual Services Available</h3>
             </div>
-            <p className="text-sm text-neutral-300">
-              Our trade and barter service diverts thousands of pounds of construction materials from landfills annually, 
-              supporting sustainable building practices and reducing environmental impact while saving you money.
+            <p className="text-neutral-300">
+              Remote design consultations available nationwide with digital mood boards and 3D renderings. 
+              Combined with execution services receive 15–25% discounts, plus ongoing design support throughout implementation.
             </p>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-[var(--brand-primary)]">
+      <section className="py-24 bg-[var(--brand-primary)]">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-light text-black mb-6">
-            Turn Surplus into Savings
+            Transform Your Space with Expert Design
           </h2>
           <p className="text-lg text-black/80 mb-8">
-            Start your material exchange today. Get an expert valuation and discover 
-            how much your surplus materials are worth in trade value.
+            Get professional design guidance that brings your vision to life. 
+            Beautiful, functional spaces that reflect your personal style.
           </p>
           <motion.a
             href="/contact"
@@ -270,14 +276,13 @@ export default function Page() {
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white rounded-xl font-medium hover:bg-neutral-800 transition-colors"
           >
-            Get Trade Valuation
+            Start Design Consultation
             <ArrowRight className="w-5 h-5" />
           </motion.a>
         </div>
       </section>
 
-      {/* Related Services */}
-      <RelatedServices currentService="trade" />
+      <RelatedServices currentService="design" />
     </main>
   );
 }

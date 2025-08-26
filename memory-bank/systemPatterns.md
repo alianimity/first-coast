@@ -30,8 +30,8 @@
 - Responsive design with mobile-first approach
 
 ## Shopify Integration Pattern
-- 5 main service categories as Shopify products
-- Individual services (4 per category) as product variants
+- 8 main service categories as Shopify products
+- Individual services as product variants with price ranges from $50 to $75K+
 - CSV import structure with proper column alignment
 - Professional product images and descriptions
 

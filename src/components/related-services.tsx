@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Palette, Users, Package, Repeat, Award } from "lucide-react";
+import { ArrowRight, Palette, Users, Package, Repeat, Award, Search, Wrench, Brush } from "lucide-react";
 
 interface RelatedServicesProps {
   currentService: string;
@@ -48,6 +48,30 @@ const allServices = [
     icon: Award,
     description: "Complete project coordination and oversight",
     price: "$500 - $30K"
+  },
+  {
+    id: "inspection",
+    name: "Home Inspection",
+    href: "/services/inspection",
+    icon: Search,
+    description: "Professional property evaluations and assessments",
+    price: "$50 - $800"
+  },
+  {
+    id: "maintenance",
+    name: "Maintenance & Repair",
+    href: "/services/maintenance",
+    icon: Wrench,
+    description: "Ongoing maintenance and quick repairs",
+    price: "$75 - $2K"
+  },
+  {
+    id: "design",
+    name: "Design Consultation",
+    href: "/services/design",
+    icon: Brush,
+    description: "Expert color schemes and design guidance",
+    price: "$100 - $1.5K"
   }
 ];
 
