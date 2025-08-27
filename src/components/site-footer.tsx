@@ -59,6 +59,9 @@ export function SiteFooter() {
                 { name: "Material Sourcing", href: "/services/sourcing" },
                 { name: "Trade & Barter", href: "/services/trade" },
                 { name: "Logistics Management", href: "/services/logistics" },
+                { name: "Home Inspection", href: "/services/inspection" },
+                { name: "Maintenance & Repair", href: "/services/maintenance" },
+                { name: "Design Consultation", href: "/services/design" },
               ].map((item) => (
                 <li key={item.name}>
                   <a 
