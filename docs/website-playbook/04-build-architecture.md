@@ -9,8 +9,10 @@
 - Legal: terms, privacy
 
 ## Components
-- Navbar (sticky, dropdown), Footer, Breadcrumbs, Related Services, Mobile Sticky CTA
+- Navbar (sticky, dropdown with all service categories), Footer (all services listed), Breadcrumbs (clickable), Related Services, Mobile Sticky CTA
 - UI: Button (asChild), cards, stats, icons (lucide-react)
+- Cross-service recommendations component for upselling and discovery
+- Service grid component with consistent card layouts and pricing display
 
 ## Code Templates
 
@@ -51,3 +53,6 @@ export default function Page() {
 - Remove explicit JSX.Element return types if TS conflicts
 - Use next/link instead of <a> for internal links
 - Tailwind darkMode: 'class'
+- Ensure all new services are added to navbar dropdown AND footer navigation
+- Breadcrumb components should use proper Link components for clickability
+- Service page URLs should follow /services/[category] pattern consistently

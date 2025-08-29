@@ -12,6 +12,8 @@
 ## Layout Bugs
 - Missing position context: add relative to parent when using absolute children
 - Z-index stacking: ensure click targets are above decorative layers
+- Service hero sections: ensure breadcrumbs don't overlap hero content
+- Mobile sticky CTAs: test on various screen sizes to prevent layout issues
 
 ## Windows Specific
 - EPERM on .next/trace: safe to ignore; redeploy on Vercel for clean build
@@ -26,3 +28,7 @@
 - Legal-safe language; realistic numbers
 - Consistent stats across components
 - Testimonials with personal names
+- Footer navigation includes all service categories
+- Mobile responsiveness across all device sizes
+- Breadcrumb navigation is clickable and functional
+- Cross-service linking works properly

@@ -16,7 +16,10 @@ Alternatives:
 - ESLint + TypeScript strict
 - Prettier consistent formatting
 - Git branching: feature/*, PR reviews
-- Windows PowerShell notes: prefer separate commands over chained when needed (cd .. then Remove-Item -Recurse -Force)
+- Windows PowerShell notes: 
+  - Prefer separate commands over chained when needed (cd .. then Remove-Item -Recurse -Force)
+  - Use separate git add and git commit commands instead of chained && operations
+  - PowerShell console buffer issues: keep commit messages concise to avoid rendering errors
 
 ## Project Initialization (Next.js + Tailwind)
 <details><summary>Commands</summary>
@@ -34,10 +37,12 @@ npm i @radix-ui/react-slot framer-motion zod react-hook-form class-variance-auth
 </details>
 
 ## Directory Structure (App Router)
-- src/app/(routes)
-- src/components/(ui + sections)
+- src/app/(routes) - service pages should follow consistent URL patterns (/services/[category])
+- src/components/(ui + sections) - separate UI components from section components
 - src/lib/(utilities)
-- public/(assets)
+- public/(assets) - include /logos/SVGs/ for brand assets, favicons
+- docs/ - for documentation, catalogs, and playbooks
+- memory-bank/ - for project context and decision tracking
 
 ## Environment
 - Vercel for hosting (zero-config)

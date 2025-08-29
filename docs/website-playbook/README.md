@@ -12,6 +12,8 @@ Modules:
 - 07-deployment.md – Envs, build, Vercel, post-launch checks
 - 08-memory-bank-workflow.md – Documentation and decision tracking
 - 09-templates.md – Reusable code blocks and page skeletons
+- 10-portfolio-showcase.md – Visual galleries and project showcases
+- 11-service-expansion.md – Systematic approach to adding new service categories
 
 Who this is for: Product/brand teams and engineers creating professional, consistent, legally-safe, high-converting sites across industries.
 
